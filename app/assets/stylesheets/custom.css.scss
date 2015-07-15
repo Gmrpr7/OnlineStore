@@ -1,2 +1,68 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+/* All */
+@font-face {
+    font-family: ProximaNova;
+    src: url(../assets/fonts/ProximaNovaReg.ttf);
+}
+
+body {
+    background-color: #45ADA8;
+    font-family: ProximaNova;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #547980;
+    border-color: transparent;
+}
+
+.logo, #cart {
+    margin-top: -15px;
+    height: 50px;
+}
+
+.navbar-default .navbar-nav > li > a, 
+.dropdown-menu > li > a:hover, 
+.dropdown-menu > li > a:focus,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+	color: #333;
+}
+
+#centerNav {
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main-content, #searchbox {
+    background-color: #E5FCC2;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: #333;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #333;
+}
+
+/* Main */
+#sidebar {
+    background-color: #9DE0AD;
+}
+
+.main-container {
+    margin-top: -20px;
+}
+
+#carousel {
+    width: 100%;
+}
+
+/* Footer */
+.footer {
+	background-color: #547980;
+}
